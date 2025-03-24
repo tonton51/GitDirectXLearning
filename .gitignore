@@ -1,0 +1,40 @@
+# Visual Studio関連
+.vs/
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+
+# ビルド生成物
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.pch
+*.exp
+*.lib
+*.idb
+*.tlog
+*.ipch
+*.iobj
+*.ipdb
+
+# CMake関連 (もし使用していれば)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# DirectXシェーダー関連
+*.cso  # コンパイル済みシェーダー
+*.pdb  # デバッグ情報
+
+# その他
+*.log
+*.tmp
+*.cache
